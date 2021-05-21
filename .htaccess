@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^/stuliday2021v2/$
+RewriteRule (.*) http://localhost/stuliday2021v2/$1 [R=301,L]
+RewriteRule ^$ public [L]
