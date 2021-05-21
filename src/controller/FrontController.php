@@ -2,6 +2,8 @@
 
 namespace App\src\controller;
 
+use App\src\DAO\ArticleDAO;
+
 class FrontController
 {
     private $articleDAO;
